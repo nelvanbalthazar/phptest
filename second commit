@@ -1,0 +1,135 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .editorconfig
+#	new file:   .env.example
+#	new file:   .gitattributes
+#	new file:   .gitignore
+#	new file:   app/Console/Kernel.php
+#	new file:   app/Exceptions/Handler.php
+#	new file:   app/GetUser.php
+#	new file:   app/Http/Controllers/Auth/ForgotPasswordController.php
+#	new file:   app/Http/Controllers/Auth/LoginController.php
+#	new file:   app/Http/Controllers/Auth/RegisterController.php
+#	new file:   app/Http/Controllers/Auth/ResetPasswordController.php
+#	new file:   app/Http/Controllers/Auth/VerificationController.php
+#	new file:   app/Http/Controllers/AuthController.php
+#	new file:   app/Http/Controllers/Controller.php
+#	new file:   app/Http/Controllers/WebController.php
+#	new file:   app/Http/Kernel.php
+#	new file:   app/Http/Middleware/Authenticate.php
+#	new file:   app/Http/Middleware/CheckForMaintenanceMode.php
+#	new file:   app/Http/Middleware/CustomMiddleware.php
+#	new file:   app/Http/Middleware/EncryptCookies.php
+#	new file:   app/Http/Middleware/RedirectIfAuthenticated.php
+#	new file:   app/Http/Middleware/TrimStrings.php
+#	new file:   app/Http/Middleware/TrustProxies.php
+#	new file:   app/Http/Middleware/VerifyCsrfToken.php
+#	new file:   app/Http/Resources/GetUser.php
+#	new file:   app/Providers/AppServiceProvider.php
+#	new file:   app/Providers/AuthServiceProvider.php
+#	new file:   app/Providers/BroadcastServiceProvider.php
+#	new file:   app/Providers/EventServiceProvider.php
+#	new file:   app/Providers/RouteServiceProvider.php
+#	new file:   app/User.php
+#	new file:   artisan
+#	new file:   bootstrap/app.php
+#	new file:   bootstrap/cache/.gitignore
+#	new file:   composer.json
+#	new file:   composer.lock
+#	new file:   config/app.php
+#	new file:   config/auth.php
+#	new file:   config/broadcasting.php
+#	new file:   config/cache.php
+#	new file:   config/database.php
+#	new file:   config/filesystems.php
+#	new file:   config/hashing.php
+#	new file:   config/jwt.php
+#	new file:   config/l5-swagger.php
+#	new file:   config/logging.php
+#	new file:   config/mail.php
+#	new file:   config/queue.php
+#	new file:   config/services.php
+#	new file:   config/session.php
+#	new file:   config/view.php
+#	new file:   database/.gitignore
+#	new file:   database/factories/UserFactory.php
+#	new file:   database/migrations/2014_10_12_000000_create_users_table.php
+#	new file:   database/migrations/2014_10_12_100000_create_password_resets_table.php
+#	new file:   database/seeds/DatabaseSeeder.php
+#	new file:   database/seeds/UsersTableSeeder.php
+#	new file:   development/swagger-constants.php
+#	new file:   development/swagger-v1.php
+#	new file:   development/swagger.sh
+#	new file:   package.json
+#	new file:   phpunit.xml
+#	new file:   public/.htaccess
+#	new file:   public/Swagger Editor.html
+#	new file:   public/Swagger Editor_files/swagger-editor-bundle.js.download
+#	new file:   public/Swagger Editor_files/swagger-editor-standalone-preset.js.download
+#	new file:   public/Swagger Editor_files/swagger-editor.css.download
+#	new file:   public/css/app.css
+#	new file:   public/favicon-16x16.png
+#	new file:   public/favicon-32x32.png
+#	new file:   public/favicon.ico
+#	new file:   public/img/pdf.jpg
+#	new file:   public/img/pdf.png
+#	new file:   public/index.php
+#	new file:   public/js/app.js
+#	new file:   public/oauth2-redirect.html
+#	new file:   public/robots.txt
+#	new file:   public/svg/403.svg
+#	new file:   public/svg/404.svg
+#	new file:   public/svg/500.svg
+#	new file:   public/svg/503.svg
+#	new file:   public/swagger-ui-bundle.js
+#	new file:   public/swagger-ui-bundle.js.map
+#	new file:   public/swagger-ui-standalone-preset.js
+#	new file:   public/swagger-ui-standalone-preset.js.map
+#	new file:   public/swagger-ui.css
+#	new file:   public/swagger-ui.css.map
+#	new file:   public/swagger-ui.js
+#	new file:   public/swagger-ui.js.map
+#	new file:   public/swagger.json
+#	new file:   public/web.config
+#	new file:   readme.md
+#	new file:   resources/js/app.js
+#	new file:   resources/js/bootstrap.js
+#	new file:   resources/js/components/ExampleComponent.vue
+#	new file:   resources/lang/en/auth.php
+#	new file:   resources/lang/en/pagination.php
+#	new file:   resources/lang/en/passwords.php
+#	new file:   resources/lang/en/validation.php
+#	new file:   resources/sass/_variables.scss
+#	new file:   resources/sass/app.scss
+#	new file:   resources/views/swagger.blade.php
+#	new file:   resources/views/vendor/l5-swagger/.gitkeep
+#	new file:   resources/views/vendor/l5-swagger/index.blade.php
+#	new file:   resources/views/web.blade.php
+#	new file:   resources/views/welcome.blade.php
+#	new file:   routes/api.php
+#	new file:   routes/channels.php
+#	new file:   routes/console.php
+#	new file:   routes/web.php
+#	new file:   server.php
+#	new file:   storage/api-docs/api-docs.json
+#	new file:   storage/app/.gitignore
+#	new file:   storage/app/public/.gitignore
+#	new file:   storage/framework/.gitignore
+#	new file:   storage/framework/cache/.gitignore
+#	new file:   storage/framework/sessions/.gitignore
+#	new file:   storage/framework/testing/.gitignore
+#	new file:   storage/framework/views/.gitignore
+#	new file:   storage/logs/.gitignore
+#	new file:   tests/CreatesApplication.php
+#	new file:   tests/Feature/ExampleTest.php
+#	new file:   tests/TestCase.php
+#	new file:   tests/Unit/ExampleTest.php
+#	new file:   webpack.mix.js
+#

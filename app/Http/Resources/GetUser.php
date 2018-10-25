@@ -14,9 +14,7 @@ class GetUser extends JsonResource
      */
     public function toArray($request)
     {
-        $user = auth()->user();
-        if (!$user == null)
-        {
+        
             return [
                 'id' => $this->id,
                 'name' => $this->name,
@@ -24,8 +22,6 @@ class GetUser extends JsonResource
                 'created_at' => $this->created_at,
                 'updated_at' => $this->updated_at,                      
             ];
-        }else {
-            return response()->json(['error' => 'Unauthorized'], 401);
-        }
+       
     }
 }
